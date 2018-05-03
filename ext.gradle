@@ -1,0 +1,109 @@
+// for build
+ext.compileSdkVersion = 27
+ext.buildToolsVersion = "27.0.3"
+ext.minSdkVersion = 16
+ext.targetSdkVersion = 22
+
+// versions
+ext.kotlin_version = '1.2.30'
+ext.version_support = "27.0.0"
+
+ext.version_rxandroid2 = "2.0.1"
+ext.version_rxkotlin2 = "2.1.0"
+ext.version_rxlifecycle = "2.1.0"
+
+ext.version_moxy = "1.5.3"
+ext.version_okhttp = "3.8.1"
+ext.version_gson = "2.8.1"
+ext.version_retrofit = "2.3.0"
+ext.version_utilcode = "1.8.5"
+ext.version_BRVAH = "2.9.34"
+
+ext.version_umeng_analytics = "6.0.3"
+ext.version_rxjava2 = "2.1.2"
+
+ext.dbflow_version = "4.1.2"
+
+
+// dependencies
+ext.dep_support_annatations = "com.android.support:support-annotations:$version_support"
+ext.dep_support_v7_compat = "com.android.support:appcompat-v7:$version_support"
+ext.dep_support_v7 = "com.android.support:appcompat-v7:$version_support"
+
+ext.dep_design = "com.android.support:design:$version_support"
+ext.dep_support_design = "com.android.support:design:$version_support"
+
+ext.dep_support_v7_gridlayout = "com.android.support:gridlayout-v7:$version_support"
+
+ext.dep_multdex = "com.android.support:multidex:1.0.1"
+
+ext.dep_rxjava = "io.reactivex:rxjava:1.3.0"
+ext.dep_rxjava2 = "io.reactivex.rxjava2:rxjava:$version_rxjava2"
+ext.dep_rxkotlin2 = "io.reactivex.rxjava2:rxkotlin:$version_rxkotlin2"
+ext.dep_rxandroid2 = "io.reactivex.rxjava2:rxandroid:$version_rxandroid2"
+
+ext.dep_rxlifecycle = "com.trello.rxlifecycle2:rxlifecycle:$version_rxlifecycle"
+ext.dep_rxlifecycle_android = "com.trello.rxlifecycle2:rxlifecycle-android:$version_rxlifecycle"
+ext.dep_rxlifecycle_components = "com.trello.rxlifecycle2:rxlifecycle-components:$version_rxlifecycle"
+
+ext.dep_kotlin_gradle = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+ext.dep_kotlin_extensions_gradle = "org.jetbrains.kotlin:kotlin-android-extensions:$kotlin_version"
+ext.dep_kotlin_stdlib_jre7 = "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+ext.dep_kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+
+ext.dep_moxy = "com.arello-mobile:moxy:$version_moxy"
+ext.dep_moxy_compiler = "com.arello-mobile:moxy-compiler:$version_moxy"
+ext.dep_moxy_android = "com.arello-mobile:moxy-android:$version_moxy"
+ext.dep_moxy_android_compat = "com.arello-mobile:moxy-app-compat:$version_moxy"
+
+ext.dep_arouter = 'com.alibaba:arouter-api:1.2.1.1'
+ext.dep_arouter_compiler = 'com.alibaba:arouter-compiler:1.1.2.1'
+
+ext.dep_okhttp = "com.squareup.okhttp3:okhttp:$version_okhttp"
+ext.dep_okhttp_interceptor_logging = "com.squareup.okhttp3:logging-interceptor:$version_okhttp"
+
+ext.dep_gson = "com.google.code.gson:gson:$version_gson"
+
+ext.dep_retrofit = "com.squareup.retrofit2:retrofit:$version_retrofit"
+ext.dep_retrofit_converter_gson = "com.squareup.retrofit2:converter-gson:$version_retrofit"
+ext.dep_retrofit_converter_scalars = "com.squareup.retrofit2:converter-scalars:$version_retrofit"
+ext.dep_retrofit_adapter_rxjava2 = "com.squareup.retrofit2:adapter-rxjava2:$version_retrofit"
+
+ext.dep_utilcode = "com.blankj:utilcode:$version_utilcode"
+ext.dep_magicasakura = "com.bilibili:magicasakura:0.1.6@aar"
+
+ext.dep_facebook_account_kit = "com.facebook.android:account-kit-sdk:4.26.0"
+
+ext.dep_eventbus = 'org.greenrobot:eventbus:3.0.0'
+
+ext.dep_BRVAH = "com.github.CymChad:BaseRecyclerViewAdapterHelper:$version_BRVAH"
+ext.dep_SpinKit = "com.github.ybq:Android-SpinKit:1.1.0"
+ext.dep_wasabeef="jp.wasabeef:glide-transformations:2.0.2"
+
+//Login
+ext.facebook_app_id = "195192164541619"
+ext.facebook_login_scheme = "fb195192164541619"
+ext.facebook_accountkit_client_token = "3382e5a79b35d169dbf468d263da65a9"
+
+//config
+//ext.platforms = "\"HoTP_Android\""
+ext.umeng_alias_type = "\"FACEBOOK\""
+ext.umeng_app_key = "5ad95ebb8f4a9d7b7a00009a"
+ext.umeng_app_secret = "5265246506d52d0efcde84d1f4abc445"
+
+ext.dep_gpuimage_plus = 'org.wysaid:gpuimage-plus:2.4.10-armv7a'
+
+// GCM (Google Cloud Messaging).
+ext.dep_play_gcm = 'com.google.android.gms:play-services-gcm:9.4.0'
+
+ext.dep_umeng_analytics = "com.umeng.analytics:analytics:$version_umeng_analytics"
+
+ext.dbflow_kapt =  "com.github.Raizlabs.DBFlow:dbflow-processor:${dbflow_version}"
+ext.dbflow_core = "com.github.Raizlabs.DBFlow:dbflow-core:${dbflow_version}"
+ext.dbflow =  "com.github.Raizlabs.DBFlow:dbflow:${dbflow_version}"
+ext.dbflow_kotlin_extension =  "com.github.Raizlabs.DBFlow:dbflow-kotlinextensions:${dbflow_version}"
+// RXJava 2 support
+ext.dbflow_rx2 = "com.github.Raizlabs.DBFlow:dbflow-rx2:${dbflow_version}"
+// RXJava 2 Kotlin Extensions Support
+ext.dbflow_rx2_kotlin = "com.github.Raizlabs.DBFlow:dbflow-rx2-kotlinextensions:${dbflow_version}"
+
